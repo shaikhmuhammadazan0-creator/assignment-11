@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-px {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.box-percent {
+    width: 50%;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.parent {
+    font-size: 20px;
+}
+
+.text-em {
+    font-size: 1.5em;
+}
+
+.text-rem {
+    font-size: 2rem;
+}
+
+.viewport-box {
+    width: 50vw;
+    height: 30vh;
+    background-color: peachpuff;
+}
+
+.viewport-title {
+    font-size: 5vmin;
+    margin-top: 3vmax;
+}
+
+.limit-box {
+    width: 90%;
+    max-width: 100px;
+    height: auto;
+    max-height: 200px;
+    background: lightgray;
+}
+
+.image {
+    max-height: 200px;
+}
+
+.ch-text {
+    width: 50ch;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
